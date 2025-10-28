@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "694045226859",
+    "project_id": "socialpostapp-ca782",
+    "storage_bucket": "socialpostapp-ca782.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:694045226859:android:df1fcd303d60ad605c7e2e",
+        "android_client_info": {
+          "package_name": "com.example.social_post_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6OA2PVa5ElwmmGMiaY-ULCylMEaV1ErU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

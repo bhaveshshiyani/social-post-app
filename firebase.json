@@ -1,0 +1,48 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "socialpostapp-ca782",
+          "appId": "1:694045226859:android:df1fcd303d60ad605c7e2e",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "ios": {
+        "default": {
+          "projectId": "socialpostapp-ca782",
+          "appId": "1:694045226859:ios:406f9cd114e2640b5c7e2e",
+          "uploadDebugSymbols": false,
+          "fileOutput": "ios/Runner/GoogleService-Info.plist"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "socialpostapp-ca782",
+          "configurations": {
+            "android": "1:694045226859:android:df1fcd303d60ad605c7e2e",
+            "ios": "1:694045226859:ios:406f9cd114e2640b5c7e2e"
+          }
+        }
+      }
+    }
+  },
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "disallowLegacyRuntimeConfig": true,
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ],
+      "predeploy": [
+        "npm --prefix \"$RESOURCE_DIR\" run lint",
+        "npm --prefix \"$RESOURCE_DIR\" run build"
+      ]
+    }
+  ]
+}
