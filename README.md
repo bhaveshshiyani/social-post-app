@@ -43,7 +43,7 @@ Users can authenticate via email/password, create posts, and view posts in a liv
     - `ui/` — Login, SignUp, Home
     - `main.dart`
 
-## Cloud Function (optional)
+## Cloud Function
 `functions/src/index.ts` — Firestore onCreate trigger for `posts` collection.
 
 ## Notes
