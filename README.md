@@ -20,6 +20,8 @@ Users can authenticate via email/password, create posts, and view posts in a liv
 - 🚫 **Form Validation** for blank fields and invalid inputs
 - ☁️ **Cloud Function Trigger** on new post creation
 
+📱 APK Download
+[Download Social Post App APK](https://github.com/bhaveshshiyani/social-post-app/releases/download/v.1.0.0/app-release.apk)
 
 ## How to run
 1. Clone repository
@@ -47,5 +49,3 @@ Users can authenticate via email/password, create posts, and view posts in a liv
 ## Notes
 - Use Firestore rules to secure write access.
 - For production, update authentication error handling and add input validation (length checks, profanity filters, rate limits).
-
-📱 APK Download
